@@ -1,0 +1,61 @@
+* {
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #252742;
+    color: #FFF290;
+}
+
+body{
+    margin: auto; 
+    justify-content: center;
+    margin-top: 50px; 
+}
+
+main{
+    width: 1200px; 
+    display: flex; 
+    gap: 50px; 
+    margin: auto; 
+    justify-content: center;
+    margin-bottom: 20px; 
+}
+
+article{
+    width: 400px; 
+}
+
+h1{
+    font-family: 'Delicious Handrawn', cursive;
+    font-size: 3.5em; 
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 1.25em; 
+    line-height: 1.75em; 
+}
+
+img{
+    border-radius: 10px; 
+}
+
+footer{
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+}
+
+footer a{
+    text-decoration: none;
+    color: #FFF290;
+}
+
+footer a:hover{
+    color: white; 
+}
+
+footer p{
+    font-size: 1em; 
+}
