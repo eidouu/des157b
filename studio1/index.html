@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ministudio 2: blockbuster video!</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Patrick+Hand&display=swap&Open+Sans:wght@700&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+    <h1>the rolling cat</h1>
+
+    <p id="description">move your mouse left/right to the video slower/faster!</p>
+
+    <video id="myVideo" poster="media/catty.jpg" muted autoplay loop playsinline>
+        <source src="media/rolling_cat.webm" type="video/webm">
+        <source src="media/rolling_cat.mp4" type="video/mp4">
+
+        <p>your browser doesn't support HTML5 video. use <a href="media/rolling_cat.mp4">this</a>instead!</p>
+    </video>
+
+    <img src="media/cat_loading.png" alt="cat load">
+
+    <main>
+        <section id ="beats">
+            <p id="line1" class="hidden">they see me rollin'</p>
+            <p id="line2" class="hidden">they hatin'</p>
+            <p id="line3" class="hidden">patrollin' and tryna catch me ridin' dirty</p>
+            <p id="line4" class="hidden">tryna catch me ridin' dirty</p>
+            <p id="line5" class="hidden">tryna catch me ridin' dirty...</p>
+        </section>
+    </main>
+    
+</body>
+</html>
+

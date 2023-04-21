@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #252742;
+}
+
+h1{
+    margin: auto; 
+    text-align: center;
+    font-family: 'Delicious Handrawn', cursive;
+    font-weight: 700; 
+    font-size: 4em; 
+    color: #FFF290;
+
+}
+
+img{
+    position: absolute; 
+    top: 40%;
+    left: 40%; 
+    transform: translate(-50%, -50%);
+    animation:  cat 1s infinite alternate ease-in-out;
+}
+
+@keyframes cat {
+    0% {
+        transform: scale(1);
+    }
+    100% {
+        transform: scale(1.25);
+    }
+}
+
+#description{
+    font-family: "Patrick Hand", cursive; 
+    margin: auto; 
+    text-align: center;
+    color: #FFF290;
+    font-size: 1.5em;
+    margin-top: 20px;
+}
+
+#myVideo{
+    display: block; 
+    margin: auto;
+    min-width: 800px;
+    min-height: 100%;
+    max-width: 1280px; 
+    margin-top: 25px; 
+    border-radius: 20px; 
+    filter: contrast(120%); 
+}
+
+.hidden{
+    opacity: 0; 
+}
+
+.showing{
+    opacity: 1; 
+}
+
+#beats p {
+    position: absolute;
+    padding: 1em;
+    font-size: 2em;
+    color: black; 
+    transition: all 0.5s;
+    z-index: 1; 
+    font-family: 'Open Sans', sans-serif; 
+    font-weight: 600; 
+    font-style: italic; 
+}
+
+#line1{
+    top: 40%;
+    left: 10%;
+}
+
+#line2{
+    top: 70%;
+    left: 40%;
+}
+
+#line3{
+    top: 15%;
+    left: 40%;
+}
+
+#line4, #line5{
+    top: 80%; 
+    left: 10%;
+}
+
+
