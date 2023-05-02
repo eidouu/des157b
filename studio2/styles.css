@@ -1,0 +1,37 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    display: flex; 
+}
+
+main{
+    position: absolute; 
+    background-color: #252742;
+    width: 30vw; 
+    height: 100vh; 
+    padding: 20px; 
+}
+
+article{
+    position: absolute; 
+    right: 80%; 
+    top: 30%; 
+}
+
+h1{
+    font-family: 'Patrick Hand', cursive;
+}
+
+h2{
+    font-family: 'Delicious Handrawn', cursive; 
+    font-size: 3em; 
+}
+
+button{
+    font-family: 'Patrick Hand', cursive;
+    padding: 10px; 
+    font-size: 20px; 
+    border-radius: 10px; 
+}

@@ -1,0 +1,42 @@
+
+{
+    "time1" : {
+        "time" : "10 AM",
+        "craving" : "water"
+    },
+
+    "time2" : {
+        "time" : "11 AM",
+        "craving" : "ice cream"
+    },
+
+    "time3" : {
+        "time" : "12 PM",
+        "craving" : "nothing"
+    },
+
+    "time4" : {
+        "time" : "1 PM",
+        "craving" : "Water"
+    },
+
+    "time5" : {
+        "time" : "2 PM",
+        "craving" : "Water!"
+    },
+
+    "time6" : {
+        "time" : "3 PM",
+        "craving" : "Water!!"
+    },
+
+    "time7" : {
+        "time" : "4 PM",
+        "craving" : "WATER"
+    },
+
+    "time8" : {
+        "time" : "5 PM",
+        "craving" : "fish"
+    }
+}
