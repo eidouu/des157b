@@ -8,7 +8,7 @@ async function getData(){
     const myCravings = await fetch('data/cravings.json'); 
 
     //gets actual json file and lets us do something with it
-    const data = await myCravings.json(); 
+    const data = await myCravings.json(data); 
 
     //inputs data when button is clicked, if else statement is to avoid undefined message at beginning
     if (checkButton(data) == undefined){
