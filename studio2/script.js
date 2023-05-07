@@ -34,7 +34,7 @@ function checkButton(data){
         //reset html before entering new text
         document.querySelector('#food').innerHTML = '';
         document.querySelector('#food').innerHTML = data['10 AM'];
-        document.querySelector('#foodImg').src = "images/water.svg"; 
+        document.querySelector('#foodImg').src = "images/WATER.svg"; 
         document.querySelector('#foodImg').style.transform = "scale(1)"; 
         document.querySelector('h4').style.transform = "scale(1)";
         return html; 
@@ -72,7 +72,7 @@ function checkButton(data){
         //reset html before entering new text
         document.querySelector('#food').innerHTML = '';
         document.querySelector('#food').innerHTML = data['1 PM'];
-        document.querySelector('#foodImg').src = "images/water.svg"; 
+        document.querySelector('#foodImg').src = "images/WATER.svg"; 
         document.querySelector('#foodImg').style.transform = "scale(1.2)"; 
         document.querySelector('#foodImg').style.transform
         document.querySelector('h4').style.transform = "scale(1.2)";
@@ -85,7 +85,7 @@ function checkButton(data){
         //reset html before entering new text
         document.querySelector('#food').innerHTML = '';
         document.querySelector('#food').innerHTML = data['2 PM'];
-        document.querySelector('#foodImg').src = "images/water.svg"; 
+        document.querySelector('#foodImg').src = "images/WATER.svg"; 
         document.querySelector('#foodImg').style.transform = "scale(1.4)"; 
         document.querySelector('h4').style.transform = "scale(1.4)";
         return html; 
@@ -97,7 +97,7 @@ function checkButton(data){
         //reset html before entering new text
         document.querySelector('#food').innerHTML = '';
         document.querySelector('#food').innerHTML = data['3 PM'];
-        document.querySelector('#foodImg').src = "images/water.svg"; 
+        document.querySelector('#foodImg').src = "images/WATER.svg"; 
         document.querySelector('#foodImg').style.transform = "scale(1.6)"; 
         document.querySelector('h4').style.transform = "scale(1.6)";
         return html; 
@@ -109,7 +109,7 @@ function checkButton(data){
         //reset html before entering new text
         document.querySelector('#food').innerHTML = '';
         document.querySelector('#food').innerHTML = data['4 PM'];
-        document.querySelector('#foodImg').src = "images/water.svg"; 
+        document.querySelector('#foodImg').src = "images/WATER.svg"; 
         document.querySelector('#foodImg').style.transform = "scale(1.8)"; 
         document.querySelector('h4').style.transform = "scale(1.8)";
         return html; 
