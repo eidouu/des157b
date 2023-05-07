@@ -6,32 +6,112 @@ html{
     display: flex; 
 }
 
+.hidden{
+    visibility: hidden;
+}
+
+.visible{
+    visibility: visible; 
+}
+
+
 main{
     position: absolute; 
     background-color: #252742;
-    width: 30vw; 
+    width: 45vw; 
     height: 100vh; 
     padding: 20px; 
 }
 
 article{
     position: absolute; 
-    right: 80%; 
-    top: 30%; 
+    right: 15%; 
+    top: 10%; 
+    text-align: center; 
+}
+
+article h4{
+    font-family: 'Patrick Hand', cursive;
+    font-size: 3em; 
+    color: #252742;
+}
+
+img{
+    width: 350px; 
+    height: auto; 
+    margin: auto; 
+    position: relative; 
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    color: #FFF; 
+    font-size: 1.25em;
+    margin-top: 0;  
+    margin: auto; 
 }
 
 h1{
     font-family: 'Patrick Hand', cursive;
-}
+    text-align: center; 
+    color: #FFF290; 
+    font-size: 1.5em; 
+    margin-top: 60px;
+} 
 
 h2{
     font-family: 'Delicious Handrawn', cursive; 
-    font-size: 3em; 
+    font-size: 4em; 
+    text-align: center; 
+    color: #FFF290; 
+    margin-top: 20px; 
+}
+
+h3{
+    font-family: 'Patrick Hand', cursive;
+    text-align: center; 
+    color: #FFF290; 
+    font-size: 1.5em; 
 }
 
 button{
     font-family: 'Patrick Hand', cursive;
-    padding: 10px; 
+    padding: 15px 10px 15px 10px; 
     font-size: 20px; 
-    border-radius: 10px; 
+    border-radius: 20px; 
+    border-style: none;
+    margin: 20px 30px 20px 30px;  
+    width: 100px; 
+    background-color: #D7F2BA;
+}
+
+button:hover{
+    background-color: #FFFF; 
+}
+
+#buttons{
+    justify-content: center;
+    display: grid; 
+    grid-template-areas:
+        "a b"
+        "c d"
+        "e f"
+        "g h";
+}
+
+footer{
+    display: flex; 
+    justify-content: center;
+    gap: 20px; 
+    position: absolute; 
+    bottom: 2%; 
+    left: 37%; 
+}
+
+footer a, a{
+    text-decoration: none;
+}
+
+footer a, a:hover p{
+    color: #D7F2BA;
 }
