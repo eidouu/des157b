@@ -1,0 +1,49 @@
+html{
+    background-color: #252742;
+}
+
+body{
+    width: 800px; 
+    margin: auto; 
+}
+
+section{
+    background-color: #494C7E;
+    border-radius: 10px; 
+    padding: 1em 2em; 
+    margin-bottom: 4em; 
+}
+
+h1, h2{
+    font-family: 'Delicious Handrawn', cursive; 
+    color: #FFF290; 
+}
+
+h1{
+    font-size: 4em; 
+    margin: 1em 0; 
+    text-align: center; 
+}
+
+h2{
+    font-size: 3em; 
+}
+
+a{
+    text-decoration: none;
+}
+
+i{
+    font-size: 16px; 
+}
+
+a:hover h2{
+    color: #FFF; 
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    color: #FFF; 
+    line-height: 2em; 
+    font-size: 24px;  
+}
