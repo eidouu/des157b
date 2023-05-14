@@ -1,0 +1,46 @@
+html{
+    width: 1200px; 
+    margin: auto; 
+    background-color: #E4FDE1;
+    color: #114B5F;
+}
+
+h1, h2{
+    font-family: 'Delicious Handrawn', cursive; 
+    text-align: left;
+}
+
+h1{
+    font-size: 2em; 
+}
+
+h2{
+    font-size: 4em; 
+    margin-top: 0; 
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    line-height: 1.5em; 
+    font-size: 1em; 
+}
+
+#articles{
+    margin-left: 400px; 
+}
+
+header{
+    align-items: center;
+    position: fixed; 
+    top: 250px; 
+    height: 100%;
+    max-width: 296px; 
+    justify-content: center;
+}
+
+img{
+    margin-top: 19px;
+    display: block; 
+    border-radius: 5px; 
+    box-shadow: #114B5F;
+}
