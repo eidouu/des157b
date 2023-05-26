@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>library liberty</title>
+
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css" rel="stylesheet">
+
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Delicious+Handrawn&family=Patrick+Hand&display=swap" rel="stylesheet">
+
+    <link href="styles.css" rel="stylesheet">
+
+    <!-- font awesome -->
+    <script src="https://kit.fontawesome.com/de511771f3.js" crossorigin="anonymous"></script>
+
+    <!-- interact library -->
+    <script src="https://cdn.jsdelivr.net/npm/interactjs/dist/interact.min.js"></script>
+
+    <!-- granim library -->
+    <script src = "https://cdnjs.cloudflare.com/ajax/libs/granim/2.0.0/granim.js"></script>
+
+    <script src="script.js" defer></script>
+    
+</head>
+<body>
+
+    <main>
+        
+        <h1>cat browser</h1>
+        <h2>find the perfect cat for you!</h2>
+
+
+        <button>search</button>
+
+        <div id="window" class="draggable">
+            <section id="pic">
+                <img src="cathead.svg" alt="cat">
+            </section>
+
+            <i id="xmark" class="fa-solid fa-xmark"></i>
+
+            <section id="text">
+                <h3 id="name"></h3>
+                <p id="description"></p>
+            </section>
+        </div>
+
+        <canvas id="canvas-basic"></canvas>
+
+    </main>        
+    
+    <footer>
+        <a href="https://validator.w3.org/nu/#textarea"><p>valid html</p></a>
+        <a href="https://jigsaw.w3.org/css-validator/validator"><p>valid css</p></a>
+        <a href="https://interactjs.io"><p>Interact</p></a>
+        <a href="https://sarcadass.github.io/granim.js/"><p>Granim</p></a>
+    </footer>
+
+</body>
+</html>

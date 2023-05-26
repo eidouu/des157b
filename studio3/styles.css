@@ -1,0 +1,130 @@
+*{
+    box-sizing: border-box;
+}
+
+html{
+    background-color: #252742;
+}
+
+h1{
+    font-family: "Delicious Handrawn", sans-serif; 
+    text-align: center; 
+    font-size: 4em; 
+    color: #FFF290; 
+    margin-bottom: 0; 
+}
+
+h2{
+    font-family: "Patrick Hand", sans-serif; 
+    text-align: center; 
+    color: #FFF290; 
+}
+
+button{
+    padding: .25em .5em; 
+    border-radius: 5px; 
+    border-style: none; 
+    background-color: #494C7E;
+    display: block; 
+    margin: 0 auto; 
+    font-family: "Patrick Hand", sans-serif; 
+    font-size: 2em; 
+    color: white; 
+}
+
+button:hover{
+    background-color: white; 
+}
+
+div{
+    background-color: white; 
+    border-radius: 5px; 
+    width: 40%; 
+    height: 400px; 
+    display: flex; 
+    min-width: 400px; 
+    position: relative; 
+    left: 30%; 
+    top: 50px; 
+    /* for dragging animation */
+    transform: translate(0px, 0px); 
+    visibility: hidden;
+}
+
+#pic{
+    position: relative; 
+    background-color: green; 
+    min-width: 40%; 
+    max-width: 40%; 
+    border-radius: 5px 0 0 5px; 
+}
+
+img{
+    position: absolute;
+    margin: auto; 
+    top: 0; 
+    left: 0; 
+    bottom: 0; 
+    right: 0; 
+}
+
+div h3{
+    font-family: "Delicious Handrawn", sans-serif; 
+    display: block; 
+    font-size: 4em; 
+    margin-top: 40px; 
+    margin-bottom: 0; 
+}
+
+div p{
+    font-family: "Patrick Hand", sans-serif; 
+    display: block; 
+    font-size: 1.5em;
+}
+
+.fa-solid{
+    position: absolute; 
+    right: 5%; 
+    top: 5%;
+    color: red; 
+    font-size: 2em; 
+}
+
+.fa-solid:hover{
+    color: black; 
+}
+
+#text{
+    display: inline; 
+    padding-left: 30px; 
+    padding-top: 20px; 
+}
+
+footer{
+    display: flex; 
+    justify-content: center;
+    position: absolute; 
+    flex-wrap: wrap; 
+    bottom: 0; 
+    width: 100vw; 
+    gap: 20px; 
+}
+
+footer a{
+    text-decoration: none; 
+    color: #FFF290; 
+    font-family: "Patrick Hand", sans-serif; 
+}
+
+/* granim stuff */
+#canvas-basic {
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: -1; 
+}
