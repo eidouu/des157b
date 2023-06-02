@@ -1,0 +1,29 @@
+*{
+    box-sizing: border-box;
+}
+
+#topbar{
+    display:flex; 
+    width: 100vw; 
+    background-color: #BFFFD5; 
+    font-family: "Patrick Hand", sans-serif; 
+    height: 20%; 
+}
+
+main{
+    background-color: #79E49D; 
+    display: flex; 
+    height: 100vh; 
+    justify-content: space-between;
+    font-family: "Patrick Hand", sans-serif; 
+}
+
+#mainApps{
+    display: flex; 
+    flex-direction: column; 
+}
+
+#help{
+    display: flex; 
+    flex-direction: column; 
+}
