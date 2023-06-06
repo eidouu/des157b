@@ -1,0 +1,29 @@
+html{
+    background-color: #252742;
+}
+
+body{
+    width: 700px; 
+    margin: auto; 
+    background-color: #494C7E;
+    border-radius: 10px; 
+    padding: 1em 2em; 
+    margin-top: 5em; 
+}
+
+h1, h2{
+    font-family: 'Delicious Handrawn', cursive; 
+    color: #FFF290; 
+}
+
+h1{
+    font-size: 4em; 
+    margin: 0; 
+}
+
+p{
+    font-family: 'Patrick Hand', cursive;
+    color: #FFF; 
+    line-height: 1.5em; 
+    font-size: 18px;  
+}
