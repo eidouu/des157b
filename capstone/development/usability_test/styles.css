@@ -1,0 +1,105 @@
+*{
+    box-sizing: border-box;
+    max-height: 100vh; 
+}
+
+#topbar{
+    display:flex; 
+    width: 100vw; 
+    background-color: #BFFFD5; 
+    font-family: "Patrick Hand", sans-serif; 
+    height: 40px; 
+    align-items: center;
+}
+
+h1{
+    margin-left: 15px; 
+    font-size: 28px; 
+    color: #383838; 
+}
+
+h2{
+    color: #383838; 
+}
+
+main{
+    background-color: #79E49D; 
+    display: flex; 
+    height: 100vh; 
+    justify-content: space-between;
+    font-family: "Patrick Hand", sans-serif; 
+}
+
+#mainApps{
+    display: flex; 
+    flex-direction: column; 
+    margin-left: 15px; 
+    text-align: center; 
+    padding: 20px; 
+}
+
+#mainApps img, #support img{
+    width: 70px;
+    height: 70px; 
+    box-shadow: 3px 3px 0px #383838;
+    margin-top: 15px; 
+    transition: all .25s ease-in-out;
+}
+
+#mainApps img:hover, #support img:hover{
+    transform: scale(1.2); 
+}
+
+#support{
+    display: flex; 
+    flex-direction: column; 
+    margin-right: 15px; 
+    padding: 20px; 
+    text-align: center; 
+}
+
+i{
+    font-size: 36px; 
+    float: right; 
+    color: #FC3A3A; 
+}
+
+i:hover{
+    color: #383838; 
+}
+
+h3{
+    font-family: 'Cherry Bomb', sans-serif;
+    font-size: 36px; 
+    color: #383838; 
+}
+
+p{
+    font-family: 'Patrick Hand', sans-serif; 
+    font-size: 20px; 
+    line-height: 1.4em; 
+    width: 500px;
+    color: #383838; 
+}
+
+#welcomeWin, #aboutWin{
+    width: 550px; 
+    height: 400px; 
+    box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.2);
+    border-radius: 5px; 
+    position: absolute; 
+    left: 30%; 
+    top: 30%; 
+    padding: 20px; 
+    background-color: white;
+    /* for dragging animation */
+    transform: translate(0px, 0px); 
+}
+
+#aboutWin{
+    left: 20%;
+    top: 10%; 
+}
+
+
+
