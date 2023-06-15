@@ -93,7 +93,7 @@ p{
     color: #383838; 
 }
 
-#welcomeWin, #aboutWin{
+#welcomeWin, #aboutWin, #historyWin, #geoWin, #cityWin, #agricWin{
     width: 550px; 
     height: 400px; 
     box-shadow: 6px 6px 24px rgba(0, 0, 0, 0.2);
@@ -110,6 +110,22 @@ p{
 #aboutWin{
     left: 20%;
     top: 10%; 
+    visibility: hidden; 
+}
+
+#historyWin{
+    visibility: hidden; 
+}
+
+#geoWin{
+    visibility: hidden;
+}
+
+#cityWin{
+    visibility: hidden; 
+}
+
+#agricWin{
     visibility: hidden; 
 }
 

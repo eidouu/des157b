@@ -13,12 +13,43 @@
         logo.src = "images/CowLogoBW.svg"; 
         title.style.color = "white"; 
     });
+
+    // open history window by clicking on welcome icon
+    const history = document.querySelector("#history");
+    history.addEventListener('click', function(){
+        historyWin.style.visibility = "visible"; 
+        historyWin.style.zIndex = "1"; 
+    });
+
+    const historyWin = document.querySelector("#historyWin");
+
+    //close welcome window
+    const historyClose = document.querySelector("#historyClose").addEventListener('click', function(){
+        historyWin.style.visibility = "hidden"; 
+        historyWin.style.zIndex = "0"; 
+    });
+
+    // open agriculture window by clicking on welcome icon
+    const agric = document.querySelector("#agriculture");
+    agric.addEventListener('click', function(){
+        agricWin.style.visibility = "visible"; 
+        agricWin.style.zIndex = "1"; 
+    });
+
+    const agricWin = document.querySelector("#agricWin");
+
+    //close agriculture window
+    const agricClose = document.querySelector("#agricClose").addEventListener('click', function(){
+        agricWin.style.visibility = "hidden"; 
+        agricWin.style.zIndex = "0"; 
+    })
     
 
     // open welcome window by clicking on welcome icon
     const welcome = document.querySelector("#welcome");
     welcome.addEventListener('click', function(){
         welcomeWin.style.visibility = "visible"; 
+        welcomeWin.style.zIndex = "1"; 
     });
 
     const welcomeWin = document.querySelector("#welcomeWin");
@@ -26,12 +57,14 @@
     //close welcome window
     const welcomeClose = document.querySelector("#welcomeClose").addEventListener('click', function(){
         welcomeWin.style.visibility = "hidden"; 
+        welcomeWin.style.zIndex = "0"; 
     })
 
     // open about window by clicking on welcome icon
     const about = document.querySelector("#about");
     about.addEventListener('click', function(){
         aboutWin.style.visibility = "visible"; 
+        aboutWin.style.zIndex = "1"; 
     });
 
     const aboutWin = document.querySelector("#aboutWin");
@@ -39,6 +72,7 @@
     //close about window
     const aboutClose = document.querySelector("#aboutClose").addEventListener('click', function(){
         aboutWin.style.visibility = "hidden"; 
+        aboutWin.style.zIndex = "0"; 
     })
 
 
