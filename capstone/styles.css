@@ -6,20 +6,25 @@
 #topbar{
     display:flex; 
     width: 100vw; 
-    background-color: #BFFFD5; 
+    background-color: #202A25; 
     font-family: "Patrick Hand", sans-serif; 
-    height: 40px; 
+    height: 50px; 
     align-items: center;
 }
 
-h1{
-    margin-left: 15px; 
+#topbar img{
+    height: 40px; 
+    padding: 0 10px 0 10px; 
+}
+
+h1{ 
     font-size: 28px; 
-    color: #383838; 
+    color: #FFF; 
 }
 
 h2{
     color: #383838; 
+    margin-top: 0; 
 }
 
 main{
@@ -28,6 +33,14 @@ main{
     height: 100vh; 
     justify-content: space-between;
     font-family: "Patrick Hand", sans-serif; 
+}
+
+#cowseal{
+    position: absolute;
+    left: 30vw;
+    top: 20vh; 
+    height: 600px; 
+    opacity: 60%; 
 }
 
 #mainApps{
@@ -39,9 +52,7 @@ main{
 }
 
 #mainApps img, #support img{
-    width: 70px;
-    height: 70px; 
-    box-shadow: 3px 3px 0px #383838;
+    height: 120px; 
     margin-top: 15px; 
     transition: all .25s ease-in-out;
 }

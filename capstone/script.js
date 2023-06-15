@@ -2,6 +2,19 @@
     "use strict"; 
     console.log('reading js');
 
+    //hover icon to change logo
+    const logo = document.querySelector("#topbar img");
+    const title = document.querySelector("#topbar h1"); 
+    logo.addEventListener('mouseout', function(){
+        logo.src = "images/CowLogoColor.svg"; 
+        title.style.color = "#ffeaec"; 
+    })
+    logo.addEventListener('mouseover', function(){
+        logo.src = "images/CowLogoBW.svg"; 
+        title.style.color = "white"; 
+    });
+    
+
     // open welcome window by clicking on welcome icon
     const welcome = document.querySelector("#welcome");
     welcome.addEventListener('click', function(){
